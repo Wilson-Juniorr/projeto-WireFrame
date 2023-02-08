@@ -1,0 +1,199 @@
+@media (max-width: 1250px){
+.s-hero .container  .text{
+    max-width: 49%;
+}
+
+.s-hero .image{
+    max-width: 46%;
+    height: 40rem;
+}
+
+
+.container{
+    gap: 25px;
+}
+
+.s-card-featured .all-cards{
+    width: 100%;
+
+}
+
+.s-card-featured .all-cards .card{
+    max-width: 31%;
+}
+
+.s-card-featured .seconde-area .all-imgs{
+    gap: 1.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+}
+
+@media (max-width: 1050px){
+header nav{
+    display: none;
+}
+
+header .menu-mobile{
+    display: block;
+}
+
+.s-hero .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.s-hero .container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-hero .container .image{
+    max-width: 50%;
+}
+
+.s-card-featured .all-cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.s-card-featured .all-cards .card{
+    max-width: 60%;
+    height: auto;
+}
+
+.s-card-featured .all-cards .card p{
+    padding-bottom: 0.6rem;
+    font-size: 1.5rem;
+}
+
+.s-card-featured .all-cards .card .info{
+    max-width: 80%;
+}
+
+}
+@media (max-width: 770px){
+}
+
+@media (max-width: 650px){
+html{
+    font-size: 40%;
+}
+
+header .logo{
+    max-width: 17.0rem;
+}
+
+.s-hero{
+    padding: 3.9rem 0rem;
+}
+
+.s-hero .container .text{
+    max-width: 85%;
+}
+
+.s-hero .text .btn-primary{
+    margin-top: 30px;
+}
+
+.s-hero .image{
+    max-width: 70% !important;
+}
+
+.all-cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-card-featured .btn-primary.imt{
+    width: 60%;
+    text-align: center;
+} 
+    
+.s-card-featured .seconde-area .all-imgs .image {
+    width: 16.6rem;
+}
+
+.s-card-featured .seconde-area .top{
+    text-align: center;
+    flex-direction: column;
+}
+.s-card-featured .title{
+    margin-bottom: 2.2rem;
+}
+
+.s-card-featured .seconde-area .all-imgs .image{
+    width: 40%;
+}
+
+.s-newsletter{
+    padding: 6.2rem 0rem;
+}
+
+.s-newsletter .container h2 { 
+    text-align: center;
+    width: 83%;
+}
+
+.s-newsletter .container p{
+    width: 75%;
+}
+
+}
+
+@media (max-width: 550px){  
+    .section-footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-footer .container .cards.sociais ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-footer .container .cards.logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .section-footer .container .cards.sociais h4{
+        text-align: center;
+        font-size: 2rem;
+    }
+   
+
+    .section-footer .container .cards.paginas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+    
+    .section-footer .container .cards.solucoes{
+        display: none;
+    }
+
+    .section-footer .container .cards.sociais{
+        text-align: center;
+        max-width: 100%;
+    }
+}

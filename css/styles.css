@@ -1,0 +1,296 @@
+/* Style do HEADER */
+header{
+    display: flex;
+    width: 100%;
+    height: 8.8rem;
+    background-color: var(--gray-colors-800);
+    align-items: center;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header nav{
+    display: flex;
+}
+
+header .menu-mobile{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 3.2rem;
+}
+
+header nav ul li{
+    margin-right: 3.2rem;
+}
+
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
+header nav .btn-primary{
+    padding: 0.9rem 3.4rem;
+}
+
+/* Style da section HERO */
+
+.s-hero{
+    padding: 7.2rem 0rem;
+} 
+
+.s-hero .container{
+    display: flex;
+}
+
+.s-hero .text{
+    width: 100%;
+    max-width: 64.0rem;
+}
+
+.s-hero .text p {
+    margin-top: 2rem;
+}
+
+.s-hero .text .btn-primary{
+    padding: 1.7rem 3.7rem;
+    margin-top: 56px;
+}
+
+.s-hero .image{
+    width: 100%;
+    max-width: 48.8rem;
+    height: 49.6rem;
+    background-color: var(--gray-colors-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILIZANDO A SECTION 2 SECTION DOS CARDS - CARD-FEATURED */
+
+.s-card-featured{
+    background-color: var(--gray-colors-100);
+    padding-top: 10.4rem;
+    padding-bottom: 12rem;
+}
+
+.s-card-featured .main-area{
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 12.5rem;
+}
+
+.s-card-featured .title{
+    display: flex;
+    flex-direction: column;
+}
+
+.s-card-featured .title p {
+    margin-top: 0.8rem;
+}
+
+.s-card-featured .title.center{
+    align-items: center;
+}
+
+.s-card-featured p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.s-card-featured .all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+
+.s-card-featured .all-cards .card{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 38.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(28, 29, 31, 0.5);
+    padding-top: 64px;
+}
+
+.s-card-featured .all-cards .card.white{
+    background-color: var(--white);
+}
+
+.s-card-featured .all-cards .card.white h3{
+    color: var(--gray-colors-100);
+}
+
+.s-card-featured .all-cards .card.white p{
+    color: var(--gray-colors-300);
+}
+
+.s-card-featured .all-cards .card .info{
+    margin-top: 4rem;
+    max-width: 28.8rem;
+}
+
+.s-card-featured .all-cards .card .info h3{
+    text-align: center;
+}
+
+.s-card-featured .all-cards .card .info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 150%;
+}
+
+/* ESTILIZANDO A PARTE DE BAIXO DOS TRÊS CARDS - 12 IMAGENS */
+
+.s-card-featured .seconde-area{
+    margin-top: 11.2rem;
+}
+
+.s-card-featured .seconde-area .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6.4rem;
+}
+
+.s-card-featured .seconde-area .all-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px   ;
+}
+
+.s-card-featured .seconde-area .all-imgs .image{
+    width: 17.6rem;
+    height: 11.2rem;
+    background-color: var(--gray-colors-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILIZANDO A SECTION s-newsletter */
+.s-newsletter{
+    background-color: var(--gray-colors-200);
+    padding: 15.2rem 0rem;
+}
+
+.s-newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.s-newsletter .container h2{
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.s-newsletter .container p{
+    text-align: center;
+    max-width: 69.4rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.s-newsletter .container .btn-primary{
+    padding: 2rem 4rem
+}
+
+/* ESTILIZANDO O FOOTER */
+
+.section-footer{
+    padding: 8.5rem 0rem;
+    background-color: var(--gray-colors-100);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section-footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white; 
+}
+
+.section-footer .container .cards.logo{
+    width: 100%;
+    max-width: 23.1rem;
+}
+
+.section-footer .container .cards.logo img{
+    padding-bottom: 3.5rem;
+    max-width: 20.8rem;
+}
+
+.section-footer .container .cards.logo p{
+    max-width: 28.1rem;
+}
+
+.section-footer .container .paginas {
+    max-width: 11.8rem;
+    cursor: pointer;
+}
+
+.section-footer .container .paginas h4{
+    padding-bottom: 2.4rem;
+}
+
+.section-footer .container .paginas ul li{
+    padding-bottom: 32px;
+}
+
+.section-footer .container .paginas ul  li:last-child{
+    padding: 0rem;
+}
+
+.section-footer .container .solucoes{
+    max-width: 7rem;
+}
+
+.section-footer .container .solucoes h4{
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+
+.section-footer .container .solucoes ul li{
+    padding-bottom: 3.2rem;
+    cursor: pointer;
+}
+
+.section-footer .container .sociais{
+    display: flex;
+    flex-direction: column;
+    max-width: 16.3rem;
+}
+
+.section-footer .container .sociais h4{
+    padding-bottom: 2.7rem;
+}
+
+.section-footer .container .sociais ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.section-footer .container .sociais ul li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.section-footer .container .sociais img{
+    display: inline-block;
+}
